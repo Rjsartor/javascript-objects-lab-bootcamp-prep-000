@@ -7,3 +7,8 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, name, ingredients) {
   recipes[name] = ingredients
   return recipes
 }
+
+function deleteFromObjectByKey(recipes, name) {
+  delete recipes[name]
+  return recipes
+}
